@@ -1,0 +1,53 @@
+DOSSIER DES PHOTOS — DIONDA STORE
+==================================
+
+Les photos de ce dossier remplacent automatiquement les illustrations dans la boutique.
+Un produit sans photo garde son illustration : rien ne casse.
+
+AJOUTER OU CHANGER UNE PHOTO
+1. Déposez l’image dans ce dossier (nom en minuscules, sans accent ni espace).
+2. Administration > Produits > Modifier > « Photo du produit » : indiquez le nom du fichier.
+   Pour des photos en plus (vignettes sur la fiche produit) : champ « Autres photos », un nom par ligne.
+   (Pour une association permanente dans le code : champ photo du produit dans src/data/seed.ts.)
+
+Conseils : format carré (environ 1200 x 1200 pixels), JPG, moins de 300 Ko, fond clair et uni.
+
+PHOTOS ASSOCIÉES
+----------------
+netetou.jpg                    Nététou traditionnel en sachet
+mil.jpg                        Brisure de mil
+mais.jpg                       Brisure de maïs
+huile-de-palme.jpg             Huile de palme de Ziguinchor
+fonio-sachet.jpg               Fonio (photo principale)
+fonio.jpg                      Fonio (2e photo, fiche produit)
+miel-pur.jpg                   Miel naturel
+guedj.jpg                      Guedj
+touffa.jpg                     Toufa
+yokhoss.jpg                    Yokoss
+graines-de-sesame.jpg          Sésame du Mali
+poudre-darachide.jpg           Arachide en poudre de Kaolack
+pate-darachide.jpg             Pâte d’arachide
+moringa.jpg                    Moringa en poudre
+poudre-de-bouye.jpg            Poudre de baobab
+akpi.jpg                       Akpi (djansang)
+graines-de-fenugrec.jpg        Graines de fenugrec
+beurre-de-karite.jpg           Beurre de karité
+beurre-de-cacao.jpg            Beurre de cacao
+graines-de-chia.jpg            Graines de chia
+cafe-touba.jpg                 Café Touba (photo principale)
+cafe-touba-verre.jpg           Café Touba (2e photo, fiche produit)
+nougat.jpg                     Nougat à l’arachide
+sel-iode.jpg                   Sel iodé
+bissap.jpg                     Bissap rouge
+bissap-blanc.jpg               Bissap blanc
+vetiver.jpg                    Vétiver
+
+PRODUITS SANS PHOTO (illustration affichée)
+-------------------------------------------
+- Panier tressé (exemple)
+- Pagne tissé (exemple)
+- Coffret Saveurs du terroir, Coffret Petit-déjeuner
+
+Où se trouve ce dossier :
+- projet en développement (npm run dev) : public/photos/
+- site construit : photos/ à côté de index.html (dist/photos/ ou dist-single/photos/)
